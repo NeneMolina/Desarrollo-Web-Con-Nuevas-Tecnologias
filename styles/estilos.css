@@ -1,0 +1,73 @@
+/* Selectores*/
+
+*{
+    /*Tipo de letra para el navegador*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background: rgb(4, 156, 226);
+    color: black;
+    padding: 30px;
+    font-size: 60px;
+    border-radius: 15px;
+    border:black solid;
+    text-align: center;
+}
+
+h2{
+    background: rebeccapurple;
+    color: royalblue;
+    padding: 15px;
+    border:rebeccapurple solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+p{
+    background: burlywood;
+    color: black;
+    border:black solid;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/*important pra darle prioridad al cambio*/
+footer a{
+    color: red !important;
+}
+
+/*COn el signo # podemos modificar directamente por ID*/
+#descripcion{
+    padding: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: blue solid;
+    border-radius: 140px;
+}
+
+/*COn el signo . podemos modificar directamente por Clase*/
+
+.parrafoUno{
+    font-style: italic;
+}
+
+.parrafoDos{
+    font-style: oblique;
+}
+
+.parrafoTres{
+    background: skyblue;
+    font-style: italic;
+}
+
+.tituloUno{
+    background: violet;
+    border:rebeccapurple solid;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: left;
+}
