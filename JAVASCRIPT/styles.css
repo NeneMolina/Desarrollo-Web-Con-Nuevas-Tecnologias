@@ -1,0 +1,105 @@
+
+:root {
+    --white: #FFF;
+    --gray: #E6E9EF;
+    --black: #000;
+    --pink: #FFD5E5;
+    --yellow: #FFFFDD;
+    --teal: #A0FFE6;
+    --blue: #81F5FF;
+}
+body {
+    margin: 0;
+    background-color: var(--gray);
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .contenedorPrincipal{
+      display: flex;
+      
+      flex-direction: row;
+      align-items: stretch;
+      justify-content:space-evenly;
+
+      border: 5px solid slateblue;
+      padding: 10px;
+      margin: 10px;
+  }
+
+  h1 {
+    margin:30px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .containerUno {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background: var(--white);
+    border: 3px solid var(--black);
+    width: 40%;
+   
+  }
+  .containerDos{
+      display: flex;
+      flex-direction: column;
+      background-color: azure;
+      border:2px solid var(--black);
+      width: 30%;
+  }
+
+  .containerTres{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 25%;
+      background-color: var(--pink);
+      border: 3px dashed var(--black);
+  }
+
+  .item {
+    border: 3px solid var(--black);
+    margin: 2px;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  .item:nth-child(1) {
+    background-color: var(--pink);
+    text-align: center;
+  }
+
+  .item:nth-child(2) {
+    background-color: var(--yellow);
+    text-align: center;
+  }
+  
+  .item:nth-child(3) {
+    background-color: var(--teal);
+    text-align: center;
+  }
+  
+  .item:nth-child(4) {
+      background-color: var(--blue);
+      text-align: center;
+  }
+
+  .juego{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  button{
+    background-color: azure;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Inconsolata', monospace;
+  }
